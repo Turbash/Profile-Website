@@ -1,0 +1,92 @@
+body {
+  height: 95vh;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, #350202, #000000);
+}
+#main {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #acf7c1;
+  text-shadow: 0 0 10px #fdbd01;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-color: #acf7c1;
+  border-style: solid;
+  border-width: 2px;
+}
+#heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Trebuchet MS;
+  color: #acf7c1;
+  text-shadow: 0 0 10px #fdbd01;
+}
+#nameblock {
+  display: block;
+  font-size: larger;
+}
+#name {
+  font-family: Times New Roman;
+}
+#Navigation {
+  border-bottom: 1px solid #acf7c1;
+}
+.links {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Arial;
+  color: #acf7c1;
+  text-shadow: 0 0 10px #fdbd01;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+.sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20rem;
+}
+.sectionheading {
+  color: #acf7c1;
+  font-family: Comic Sans MS;
+  text-shadow: 0 0 10px #fdbd01;
+}
+.textabout {
+  color: #acf7c1;
+  font-family: Comic Sans MS;
+  text-shadow: 0 0 10px #fdbd01;
+  font-size: large;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  line-height: 2.5rem;
+}
+.Icons {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #acf7c1;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fdbd01;
+}
+#contactIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Iconcontainer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
